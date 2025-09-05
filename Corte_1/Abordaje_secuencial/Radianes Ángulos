@@ -1,0 +1,10 @@
+import math
+print("Calculadora de Seno")
+print("Ingresa un ángulo en grados para calcular su seno")
+grados = int(input())
+radianes = math.radians(grados)
+print("Angulo en radianes: ",radianes)
+seno_radianes = math.sin(radianes)
+print("el seno en radianes es: ",seno_radianes)
+seno_grados = math.degrees(seno_radianes)
+print("El resultado del seno en angulo es: ",seno_grados)
