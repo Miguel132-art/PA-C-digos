@@ -1,4 +1,4 @@
-# Diccionario con sensores de diferentes habitaciones y sus temperaturas
+# Diccionario con sensores de diferentes habitaciones y temperaturas
 sensors =  {"living room": 21, "kitchen": 23, "bedroom": 20, "pantry": 22}
 # Diccionario con el número de cámaras en diferentes ubicaciones
 num_cameras = {"backyard": 6,  "garage": 2, "driveway": 1}
@@ -139,3 +139,4 @@ print("After: ", plays)
 library = {"The Best Songs": plays, "Sunday Feelings": {}}
 # Imprime el diccionario de bibliotecas
 print(library)
+
