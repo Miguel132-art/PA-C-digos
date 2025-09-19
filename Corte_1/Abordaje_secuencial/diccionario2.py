@@ -28,7 +28,7 @@ print(zodiac_elements["earth"])
 # Imprime los signos zodiacales de fuego
 print(zodiac_elements["fire"])
 
-# Añadimos un nuevo edificio "Landmark" con altura de 81 metros al diccionario
+# Se añade un nuevo edificio "Landmark" con altura de 81 metros al diccionario
 building_heights = {
     "Burj Khalifa": 828, 
     "Shanghai Tower": 632, 
@@ -228,4 +228,5 @@ pct_women_in_occupation = {
 
 # Itera sobre las ocupaciones y los porcentajes y los imprime
 for occupation, percentage in pct_women_in_occupation.items():
+
     print("Women make up " + str(percentage) + " percent of " + occupation + "s.")
